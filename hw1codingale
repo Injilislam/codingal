@@ -1,0 +1,19 @@
+<html> 
+    <head>
+        <title> visual studio project </title>
+    </head>
+<body>
+    <h1> my convo with joe </h1>
+    <h2> credits </h2>
+    <h3> Me: creator, artist, designer, coder </h3>
+    <h4> CD teacher: helped teach me how to do it </h4>
+    <h5> Joe: character </h5>
+    <h6> now the story </h6>
+    <p> <b>Hi! </b> <br> <i>Joe: hello... </i> <br> <u> are you sad? </u> <br> <mark> no... </mark> <p>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr> 
+    </body>
+    </html>
