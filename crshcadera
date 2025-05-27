@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet); text-align: center; color: white;}
+h1 {color: gold; text-shadow: 3px 3px 10px black;}
+p {color: cyan; font-style: italic;}
+@keyframes rainbow {0%{color: red;} 100%{color: violet;}}
+.rainbow-text {font-size: 24px; font-weight: bold; animation: rainbow 3s infinite alternate;}
+</style>
+</head>
+<body>
+<h1>Rainbow Magic</h1>
+<p class="rainbow-text">Experience the colors!</p>
+</body>
+</html>
