@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to bottom, #001F3F, #003366, #004080, #0059b3, #0073e6);
+            color: #A8DADC;
+        }
+
+        h1 {
+            color: #58A6FF;
+            text-shadow: 2px 2px 4px #004080;
+        }
+
+        /* Attribute Selector */
+        a {
+            color: #B0E0E6;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #00BFFF;
+        }
+
+        /* Child Selector */
+        ul > li {
+            font-weight: bold;
+            background: linear-gradient(to right, #003366, #0059b3);
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        /* Sibling Selector */
+        h1 + p {
+            background: linear-gradient(to right, #004080, #0073e6);
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        /* :hover Pseudo-class */
+        ul li:hover {
+            color: #1E90FF;
+        }
+
+        /* :nth-child(n) Pseudo-class */
+        ul li:nth-child(3) {
+            background-color: #006699;
+        }
+
+        /* ::before Pseudo-element */
+        ul li::before {
+            content: "🌊 ";
+        }
+
+        /* ::after Pseudo-element */
+        a::after {
+            content: " 📖";
+        }
+
+        /* ::first-letter Pseudo-element */
+        p::first-letter {
+            font-size: 200%;
+            color: #00CED1;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Welcome to the Ocean Explorer's Club</h1>
+
+    <ul>
+        <li>Deep Sea Creatures</li>
+        <li>Shipwreck Discoveries</li>
+        <li>Coral Reef Expeditions</li>
+        <li>Marine Conservation</li>
+        <li>Mysteries of the Abyss</li>
+    </ul>
+
+    <p>The ocean holds secrets beyond imagination. 
+       It's a world of adventure beneath the waves.</p>
+
+    <p>From coral reefs to the deepest trenches, 
+       we continue to uncover its wonders.</p>
+
+    <h2>Famous Ocean Books</h2>
+    <ul>
+        <li><a href="https://www.goodreads.com/book/show/184624.Log_from_the_Sea_of_Cortez" target="_blank">Log From the Sea of Cortez</a> by John Steinbeck</li>
+        <li><a href="https://www.goodreads.com/book/show/2165.The_Old_Man_and_the_Sea" target="_blank">The Old Man and the Sea</a> by Ernest Hemingway</li>
+        <li><a href="https://www.goodreads.com/book/show/105008.The_Sea_Around_Us" target="_blank">The Sea Around Us</a> by Rachel Carson</li>
+        <li><a href="https://www.goodreads.com/book/show/88163.The_Voyage_of_the_Beagle" target="_blank">The Voyage of the Beagle</a> by Charles Darwin</li>
+        <li><a href="https://www.goodreads.com/book/show/178034.Song_for_the_Blue_Ocean" target="_blank">Song for the Blue Ocean</a> by Carl Safina</li>
+        <li><a href="https://www.goodreads.com/book/show/350585.The_Silent_World" target="_blank">The Silent World</a> by Jacques Cousteau</li>
+        <li><a href="https://www.goodreads.com/book/show/153747.Moby_Dick" target="_blank">Moby-Dick</a> by Herman Melville</li>
+    </ul>
+
+    <a href="https://www.nationalgeographic.com/environment/oceans/" target="_blank">Join our Voyage</a>
+    <a href="https://www.nationalgeographic.com/science/ocean/" target="_blank">Latest Ocean Discoveries</a>
+    <a href="https://www.nationalgeographic.com/photography/ocean/" target="_blank">Gallery of the Deep</a>
+
+</body>
+
+</html>
