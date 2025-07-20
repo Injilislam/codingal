@@ -1,0 +1,12 @@
+// Generate and display a random set of numbers
+const randomNumbers = Array.from({ length: 5 }, () => Math.floor(Math.random() * 101));
+console.log("Random set of numbers:", randomNumbers);
+
+// Display the current date
+const currentDate = new Date().toLocaleString();
+console.log("Current date:", currentDate);
+
+// Generate a rounded random number
+const randomDecimal = Math.random() * 100;
+const roundedNumber = Math.round(randomDecimal * 100) / 100;
+console.log("Rounded random number:", roundedNumber);
