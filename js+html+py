@@ -1,0 +1,43 @@
+//python
+try:
+    # Intentional error: dividing by zero
+    result = 10 / 0
+    print("This line will not run.")
+except ZeroDivisionError as e:
+    print("Oops! You can't divide by zero.")
+    print("Error message:", e)
+//js
+function triggerError() {
+    try {
+        // Intentional error: accessing undefined variable
+        let result = undefinedVariable + 1;
+        console.log("This won't be printed");
+    } catch (error) {
+        console.error("⚠️ Error caught: " + error.message);
+    }
+}
+
+triggerError();
+//html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Error Handling Example</title>
+    <script>
+        function causeError() {
+            try {
+                // Intentional error: undefined function
+                nonExistentFunction();
+            } catch (error) {
+                document.getElementById("errorMsg").innerText =
+                    "⚠️ An error occurred: " + error.message;
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>JavaScript Error Handling</h1>
+    <button onclick="causeError()">Trigger Error</button>
+    <p id="errorMsg" style="color: red;"></p>
+</body>
+</html>
